@@ -33,7 +33,6 @@
 % clock rate and 16 GB RAM. 
 
 % Prescript running: Initializing srtinit, if it already hasn't been initialized
-clearvars;close all;srtinit;
 fprintf('\n\nautomatedAnesthesiaDelivery 3D\n');
 
 %% Problem Formulation

@@ -3,6 +3,8 @@
 prob_thresh = 0.8;
 n_dir_vecs = 32;
 
+fprintf('\n\nchainOfIntegrators %dD using %d vectors\n', n_intg, ...
+    n_dir_vecs);
 %% System definition
 umax = 1;
 dist_cov = 0.01;

@@ -7,8 +7,6 @@
 %
 % In the interest of time, Genzps+patternsearch-based underapproximation has
 % been disabled. See should_we_run_genzps
-
-clearvars;close all;srtinit;
 fprintf('\n\nbuildingAutomationSystem Case 1: 4D\n');
 
 %% Problem setup
