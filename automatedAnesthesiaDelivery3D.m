@@ -33,8 +33,8 @@
 % clock rate and 16 GB RAM. 
 
 % Prescript running: Initializing srtinit, if it already hasn't been initialized
-% close all;
-clearvars;srtinit;
+clearvars;close all;srtinit;
+fprintf('\n\nautomatedAnesthesiaDelivery 3D\n');
 
 %% Problem Formulation
 % We first define a |LtiSystem| object corresponding to the discrete-time 
@@ -67,7 +67,6 @@ sys = LtiSystem('StateMatrix', systemMatrix, ...
                 'DisturbanceMatrix', inputMatrix, ...
                 'InputSpace', Polyhedron('lb', 0, 'ub', auto_input_max), ...
                 'Disturbance', process_disturbance);
-disp(sys)            
 %% Safety specifications
 % We desire that the state remains inside a set $\mathcal{K}=\{x\in
 % \mathbf{R}^3: 0\leq x_1 \leq 6, 0\leq x_2 \leq 10, 0\leq x_3 \leq 10 \}$.
@@ -94,13 +93,13 @@ prob_thresh = 0.99;     % Stochastic reach-avoid 'level' of interest
 % verbose_spread = 0;
 % set_of_dir_vecs = spreadPointsOnUnitSphere(sys.state_dim, ...
 %     no_of_dir_vecs, verbose_spread
-load('set_of_dir_vecs_automated_anesthesia.mat', 'set_of_dir_vecs');
+load('matfiles/set_of_dir_vecs_automated_anesthesia.mat', 'set_of_dir_vecs');
 % Use SReachSet to compute the underapproximative set
 % ---------------------------------------------------
 % Use Ctrl + F1 to get the hints                                             
 options = SReachSetOptions('term','chance-open', 'verbose', 0, ...
-    'set_of_dir_vecs', set_of_dir_vecs, ...
-    'compute_style', 'cheby');
+    'set_of_dir_vecs', set_of_dir_vecs, 'compute_style', 'cheby');
+disp('>>> Chance-constraint-based underapproximation');
 timer_val = tic;
 [underapprox_stoch_viab_polytope, extra_info] = SReachSet('term', ...
     'chance-open', sys, prob_thresh, safety_tube, options); 
@@ -126,6 +125,7 @@ elapsed_time = toc(timer_val);
 % Display the results
 % -------------------
 fprintf('\n\nTime taken for the reach set computation: %1.2f\n', elapsed_time);
-fprintf('Ratio of volume: %1.2f\n', ...
-    underapprox_stoch_viab_polytope.volume/safe_set.volume)
+ratio_volume_3D = underapprox_stoch_viab_polytope.volume/safe_set.volume;
+fprintf('Ratio of volume: %1.2f\n', ratio_volume_3D)
 fprintf('Maximum probability point: %1.2f\n', extra_info(1).xmax_reach_prob)
+save('matfiles/results/automatedAnesthesiaDelivery3D.mat');
