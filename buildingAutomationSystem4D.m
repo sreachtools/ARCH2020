@@ -79,11 +79,11 @@ cco_options = SReachSetOptions('term', 'chance-open', ...
     'compute_style', 'cheby');
 
 % Perform the set computation
-[cco_stoch_viab_set, cco_extra_info] = SReachSet('term','chance-open', sys, ...
-    prob_thresh, safety_tube, cco_options);
-elapsed_time_cc = toc(timerVal);
-cco_stoch_viab_set_2D = cco_stoch_viab_set.slice([3,4], ...
-    slice_at_x3_and_x4_init);
+[underapprox_stoch_reach_polytope_cco, extra_info_cco] = SReachSet('term', ...
+    'chance-open', sys, prob_thresh, safety_tube, cco_options);
+elapsed_time_cco = toc(timerVal);
+underapprox_stoch_reach_polytope_cco_2D = ...
+    underapprox_stoch_reach_polytope_cco.slice([3,4], slice_at_x3_and_x4_init);
 
 % %% Construction of the lagrangian-based underapproximation
 % fprintf('\n\n\n >>> Lagrangian-based underapproximation\n');
@@ -132,12 +132,12 @@ cco_stoch_viab_set_2D = cco_stoch_viab_set.slice([3,4], ...
 % % saveas(gcf, '../results/BAS_StochasticViabilitySet.png');
 
 %% Disp
-fprintf('\n\nLower bound on reach-avoid probability (chance-open): %1.6f\n',...
-    max(cco_extra_info(1).xmax_reach_prob))
-fprintf('Time taken for the reach set computation (chance-open): %1.2f\n', ...
-    elapsed_time_cc)
-ratio_volume_2D = cco_stoch_viab_set_2D.volume/safe_set_2D.volume;
-fprintf('Ratio of 2D volume: %1.2f\n', ratio_volume_2D)
+fprintf('\n\nTime taken for the reach set computation: %1.2f\n', ...
+    elapsed_time_cco);
+ratio_volume=underapprox_stoch_reach_polytope_cco_2D.volume/safe_set_2D.volume;
+fprintf('Ratio of volume (2D): %1.2f\n', ratio_volume)
+max_reach_prob = extra_info_cco(1).xmax_reach_prob;
+fprintf('Lower bound on the maximum reach probability: %1.2f\n', max_reach_prob)
 %     fprintf('Time taken for the reach set computation (genzps-open): %1.2f\n', elapsed_time_genzps)
 %     fprintf('Time taken for the reach set computation (lag-under): %1.2f\n', elapsed_time_lag)
 save('matfiles/results/buildingAutomationSystem4D.mat');

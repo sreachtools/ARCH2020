@@ -59,15 +59,16 @@ init_safe_set_affine = Polyhedron('He',[zeros(6,1),eye(6),[x2_init;x3_init;x4_in
 cco_options = SReachSetOptions('term', 'chance-open', ...
     'init_safe_set_affine', init_safe_set_affine, 'set_of_dir_vecs', ...
     set_of_dir_vecs, 'verbose', 0, 'compute_style', 'cheby');
-[cco_stoch_viab_set, extra_info] = SReachSet('term','chance-open',sys, ...
-    prob_thresh, safety_tube, cco_options);
-elapsed_time_cc = toc(timerVal);
+[underapprox_stoch_reach_polytope_cco, extra_info_cco] = SReachSet('term', ...
+    'chance-open',sys, prob_thresh, safety_tube, cco_options);
+elapsed_time_cco = toc(timerVal);
 % For plotting, construct the slice
-if ~cco_stoch_viab_set.isEmptySet()
-    cco_stoch_viab_set_1D =  cco_stoch_viab_set.slice(2:7, ...
-        [x2_init;x3_init;x4_init;x5_init;x6_init;x7_init]);
+if ~underapprox_stoch_reach_polytope_cco.isEmptySet()
+    underapprox_stoch_reach_polytope_cco_1D = ...
+        underapprox_stoch_reach_polytope_cco.slice(2:7, ...
+            [x2_init;x3_init;x4_init;x5_init;x6_init;x7_init]);
 else
-    cco_stoch_viab_set_1D = Polyhedron(1);
+    underapprox_stoch_reach_polytope_cco_1D = Polyhedron(1);
 end
 
 % %% Construction of the lagrangian-based underapproximation
@@ -83,11 +84,13 @@ end
 %     [x2_init;x3_init;x4_init;x5_init;x6_init;x7_init]);
 
 %% Disp
-fprintf('\n\nLower bound on reach-avoid probability (chance-open): %1.6f\n', extra_info(1).xmax_reach_prob)
-fprintf('Time taken for the reach set computation (chance-open): %1.2f\n', elapsed_time_cc)
-ratio_volume_1D = abs(diff(cco_stoch_viab_set_1D.V))/abs(diff(safe_set.V(:, 1)));
-fprintf('Ratio of volume: %1.2f\n', ratio_volume_1D)
-
+fprintf('\n\nTime taken for the reach set computation: %1.2f\n', ...
+    elapsed_time_cco);
+ratio_volume = abs(diff(underapprox_stoch_reach_polytope_cco_1D.V)) ...
+    / abs(diff(safe_set.V(:, 1)));
+fprintf('Ratio of volume (1D): %1.2f\n', ratio_volume)
+max_reach_prob = extra_info_cco(1).xmax_reach_prob;
+fprintf('Lower bound on the maximum reach probability: %1.2f\n', max_reach_prob)
 % fprintf('Time taken for the reach set computation (lag-under): %1.2f\n', elapsed_time_lag)
 % disp('Chance-const. set')
 % disp('Lagrangian set')

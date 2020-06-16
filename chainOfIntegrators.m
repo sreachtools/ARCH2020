@@ -46,10 +46,8 @@ cc_options = SReachSetOptions('term', 'chance-open', 'set_of_dir_vecs', ...
 elapsed_time_cco = toc(timer_cco);
 
 %% Disp results
-fprintf('\n\nLower bound on reach-avoid probability (chance-open): %1.6f\n',...
-    extra_info_cco(1).xmax_reach_prob)
-fprintf('Time taken for the reach set computation (chance-open): %1.2f\n', ...
-    elapsed_time_cco)
+fprintf('\n\nTime taken for the reach set computation: %1.2f\n', ...
+    elapsed_time_cco);
 underapproximate_stochastic_reach_avoid_polytope_cco_2D = ...
     Polyhedron(underapproximate_stochastic_reach_avoid_polytope_cco.V(:, 1:2));
 underapproximate_stochastic_reach_avoid_polytope_cco_2D.minVRep();
@@ -57,8 +55,10 @@ underapproximate_stochastic_reach_avoid_polytope_cco_2D.minVRep();
 % safe_set_2D.minVRep();
 % safe_set_2D_volume = safe_set_2D.volume
 safe_set_2D_volume = (xmax_safe * 2) ^2;
-ratio_volume_2D = ...
+ratio_volume = ...
     underapproximate_stochastic_reach_avoid_polytope_cco_2D.volume/...
-        safe_set_2D_volume;
-fprintf('Ratio of volume: %1.2f\n', ratio_volume_2D)
+safe_set_2D_volume;
+fprintf('Ratio of volume (2D): %1.2f\n', ratio_volume)
+max_reach_prob = extra_info_cco(1).xmax_reach_prob;
+fprintf('Lower bound on the maximum reach probability: %1.2f\n', max_reach_prob)
 save(sprintf('matfiles/results/chainOfIntegrators%dD.mat', n_intg));

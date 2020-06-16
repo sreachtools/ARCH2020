@@ -100,9 +100,9 @@ options = SReachSetOptions('term','chance-open', 'verbose', 0, ...
     'set_of_dir_vecs', set_of_dir_vecs, 'compute_style', 'cheby');
 disp('>>> Chance-constraint-based underapproximation');
 timer_val = tic;
-[underapprox_stoch_viab_polytope, extra_info] = SReachSet('term', ...
+[underapprox_stoch_reach_polytope_cco, extra_info_cco] = SReachSet('term', ...
     'chance-open', sys, prob_thresh, safety_tube, options); 
-elapsed_time = toc(timer_val);
+elapsed_time_cco = toc(timer_val);
 
 % %% Plotting the stochastic viable set
 % figure(1);
@@ -123,8 +123,9 @@ elapsed_time = toc(timer_val);
 
 % Display the results
 % -------------------
-fprintf('\n\nTime taken for the reach set computation: %1.2f\n', elapsed_time);
-ratio_volume_3D = underapprox_stoch_viab_polytope.volume/safe_set.volume;
-fprintf('Ratio of volume: %1.2f\n', ratio_volume_3D)
-fprintf('Maximum probability point: %1.2f\n', extra_info(1).xmax_reach_prob)
+fprintf('\n\nTime taken for the reach set computation: %1.2f\n', elapsed_time_cco);
+ratio_volume = underapprox_stoch_reach_polytope_cco.volume/safe_set.volume;
+fprintf('Ratio of volume (3D): %1.2f\n', ratio_volume)
+max_reach_prob = extra_info_cco(1).xmax_reach_prob;
+fprintf('Lower bound on the maximum reach probability: %1.2f\n', max_reach_prob)
 save('matfiles/results/automatedAnesthesiaDelivery3D.mat');
