@@ -1,3 +1,6 @@
+clc;
+diary('matfiles/console.txt');
+diary on;
 clearvars;close all;srtinit;fixgurobipath;
 automatedAnesthesiaDelivery3D
 clearvars;close all;srtinit;fixgurobipath;
@@ -58,3 +61,10 @@ n_intg = 40;
 cco_compute_style = 'cheby';
 cco_verbose = 1;
 chainOfIntegrators;
+
+clearvars;close all;srtinit;fixgurobipath;
+n_intg = 100;
+cco_compute_style = 'cheby';
+cco_verbose = 1;
+chainOfIntegrators;
+diary off;

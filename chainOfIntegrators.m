@@ -52,9 +52,13 @@ fprintf('Time taken for the reach set computation (chance-open): %1.2f\n', ...
     elapsed_time_cco)
 underapproximate_stochastic_reach_avoid_polytope_cco_2D = ...
     Polyhedron(underapproximate_stochastic_reach_avoid_polytope_cco.V(:, 1:2));
-safe_set_2D = Polyhedron(safe_set.V(:, 1:2));
+underapproximate_stochastic_reach_avoid_polytope_cco_2D.minVRep();
+% safe_set_2D = Polyhedron(safe_set.V(:, 1:2));
+% safe_set_2D.minVRep();
+% safe_set_2D_volume = safe_set_2D.volume
+safe_set_2D_volume = (xmax_safe * 2) ^2;
 ratio_volume_2D = ...
     underapproximate_stochastic_reach_avoid_polytope_cco_2D.volume/...
-        safe_set_2D.volume;
+        safe_set_2D_volume;
 fprintf('Ratio of volume: %1.2f\n', ratio_volume_2D)
 save(sprintf('matfiles/results/chainOfIntegrators%dD.mat', n_intg));
