@@ -1,24 +1,25 @@
-# ARCH2020: SReachTools codebase
+# ARCH2020: SReachTools code for ARCH-COMP20 Category Report: Stochastic Models
 
 We provide SReachTools code base used for "ARCH 2020 Category Report: Stochastic
 Models" repeatability evaluation. We tested SReachTools on three different
 benchmarks --- automated anesthesia delivery system, building automation system,
 and chain of integrators. 
 
-We obtain the table reported in ARCH 2020 using the script
-`code/parseMatfilesResults.m` (executed automatically by `runall.m`). We store
-the table in `code/matfiles/results/table.csv` (locally) or in
-`results/table.csv` (CodeOcean).
+The table used in ARCH-COMP 2020 report is given `matfiles/results/table.csv`.
 
-This codebase has been tested on CodeOcean (lINK TO BE ADDED) as well as AWS
-server (http://mkhaled-aws.ddns.net/).  We used GUROBI, a commercial solver, in
-producing the results for the report. However, for the CodeOcean capsule, we
-used SeDuMi, a free solver that ships with CVX.  Note that SeDuMi could not
-reliably solve n in {40, 100} cases in the chain of integrator. 
+This codebase has been tested on the following platforms:
 
-The CodeOcean capsule takes about 3 minutes to finish without the time-consuming
-benchmarks (n={10, 20}), while it takes 7 additional minutes to finish the last
-two cases..
+1. AWS server (http://mkhaled-aws.ddns.net/), and 
+1. CodeOcean (LINK TO BE ADDED). 
+
+We used GUROBI, a commercial solver, in the AWS server. These results were
+utilized in creating the table for the report. See `matfiles/results`.
+
+We used SeDuMi, a free solver that ships with CVX, in the CodeOcean capsule.
+Note that SeDuMi could not reliably solve n in {40, 100} cases in the chain of
+integrator. The CodeOcean capsule takes about 3 minutes to setup and complete
+the computation without the time-consuming benchmarks (n={10, 20}), while it
+takes 7 additional minutes to finish the last two cases.
 
 ### Few changes between the code used in AWS and CodeOcean
 
@@ -39,19 +40,29 @@ two cases..
         - MATLAB's Statistics and Machine Learning Toolbox
     - CVX (tested on version 2.2) http://cvxr.com/cvx/
     - MPT (tested on version 3.1) https://www.mpt3.org/
-- **optional** GUROBI (tested on version 9.0.2) http://www.gurobi.com
+- **(optional)** GUROBI (tested on version 9.0.2) http://www.gurobi.com
 
 ### How do I reproduce the results?
 
 1. Setup the environment with above described dependencies installed
-1. Clone this repository, and run the
+1. Clone this repository
 1. Run the script `code/runall.m`.  
 
 ### Where are the results of the experiments?
 
-The results of the experiments in the folder `matfiles/results/`. The script
-`parseMatfilesResults.m` (run automatically by `runall.m`) extracts the
-information for the table from the matfiles.
+The script `parseMatfilesResults.m` (run automatically by `runall.m`) extracts
+relevant information for the matfiles produced during the experiments for the
+table.
+
+#### AWS server
+
+- We store the table in `code/matfiles/results/table.csv`.
+- The results of the experiments are stored in the folder `matfiles/results/`.
+
+#### CodeOcean
+
+- We store the table in `/results/table.csv`.
+- The results of the experiments are stored in the folder `/results`.
 
 ## Contact
 
