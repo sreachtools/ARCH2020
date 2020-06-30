@@ -55,29 +55,29 @@ cco_verbose = 0;
 chainOfIntegrators;
 
 % Uncomment the following lines for running n in {10, 20, 40, 100} cases
-% clearvars;srtinit;root_folder = presolve_setup;
-% n_intg = 10;
-% cco_compute_style = 'cheby';
-% cco_verbose = 0;
-% chainOfIntegrators;
+clearvars;srtinit;root_folder = presolve_setup;
+n_intg = 10;
+cco_compute_style = 'cheby';
+cco_verbose = 0;
+chainOfIntegrators;
 
-% clearvars;srtinit;root_folder = presolve_setup;
-% n_intg = 20;
-% cco_compute_style = 'cheby';
-% cco_verbose = 1;
-% chainOfIntegrators;
-% 
-% clearvars;srtinit;root_folder = presolve_setup;
-% n_intg = 40;
-% cco_compute_style = 'cheby';
-% cco_verbose = 1;
-% chainOfIntegrators;
-% 
-% clearvars;srtinit;root_folder = presolve_setup;
-% n_intg = 100;
-% cco_compute_style = 'cheby';
-% cco_verbose = 1;
-% chainOfIntegrators;
+clearvars;srtinit;root_folder = presolve_setup;
+n_intg = 20;
+cco_compute_style = 'cheby';
+cco_verbose = 1;
+chainOfIntegrators;
+
+clearvars;srtinit;root_folder = presolve_setup;
+n_intg = 40;
+cco_compute_style = 'cheby';
+cco_verbose = 1;
+chainOfIntegrators;
+
+clearvars;srtinit;root_folder = presolve_setup;
+n_intg = 100;
+cco_compute_style = 'cheby';
+cco_verbose = 1;
+chainOfIntegrators;
 
 clearvars;root_folder = presolve_setup;
 parseMatfilesResults;
