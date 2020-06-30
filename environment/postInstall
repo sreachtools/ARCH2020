@@ -14,20 +14,19 @@ echo 'Downloaded CVX'
 ### SReachTools (Download only)
 # Call srtinit in MATLAB to complete the setup
 ## OPTION 1: Fetch a tagged release
-#
-#SREACHTOOLS_RELEASE=1.2
-#curl -sL https://github.com/unm-hscl/SReachTools/archive/v$SREACHTOOLS_RELEASE.zip --output SReachTools.zip
-#unzip -qq SReachTools.zip
-#mv SReachTools-$SREACHTOOLS_RELEASE SReachTools
-#rm SReachTools.zip
-#echo 'Downloaded SReachTools (Version ' $SREACHTOOLS_RELEASE ')'
-
-## OPTION 2: Fetch bleeding edge
-curl -sL https://github.com/sreachtools/SReachTools/archive/master.zip --output SReachTools.zip
+SREACHTOOLS_RELEASE=1.3.1
+curl -sL https://github.com/sreachtools/SReachTools/archive/v$SREACHTOOLS_RELEASE.zip --output SReachTools.zip
 unzip -qq SReachTools.zip
-mv SReachTools-master SReachTools
+mv SReachTools-$SREACHTOOLS_RELEASE SReachTools
 rm SReachTools.zip
-echo 'Downloaded SReachTools (bleeding edge)'
+echo 'Downloaded SReachTools (Version ' $SREACHTOOLS_RELEASE ')'
+
+# ## OPTION 2: Fetch bleeding edge
+# curl -sL https://github.com/sreachtools/SReachTools/archive/master.zip --output SReachTools.zip
+# unzip -qq SReachTools.zip
+# mv SReachTools-master SReachTools
+# rm SReachTools.zip
+# echo 'Downloaded SReachTools (bleeding edge)'
    
 ### Setup MATLAB env for GeoCalcLib, YALMIP, CVX, MPT3, and SReachTools
 # Trailing \ implies newline in bash. MATLAB executes the commands in the quotes.
