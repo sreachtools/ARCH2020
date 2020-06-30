@@ -63,7 +63,7 @@ set_of_dir_vecs = spreadPointsOnUnitSphere(2, cco_n_dir_vecs, verbose_spread);
 set_of_dir_vecs = [set_of_dir_vecs; zeros(2, cco_n_dir_vecs)];
 
 %% Construction of the chance-open-based underapproximation
-disp('>>> Chance-constraint-based underapproximation');
+fprintf('Convex chance-constrained approach for alpha=%1.2f\n', prob_thresh);
 timerVal = tic;
 % SReachSet options preparation
 % Step 2: Do 4D computation
@@ -132,7 +132,7 @@ underapprox_stoch_reach_polytope_cco_2D = ...
 % % saveas(gcf, '../results/BAS_StochasticViabilitySet.png');
 
 %% Disp
-fprintf('\n\nTime taken for the reach set computation: %1.2f\n', ...
+fprintf('Time taken for the reach set computation: %1.2f\n', ...
     elapsed_time_cco);
 ratio_volume=underapprox_stoch_reach_polytope_cco_2D.volume/safe_set_2D.volume;
 fprintf('Ratio of volume (2D): %1.2f\n', ratio_volume)
@@ -140,4 +140,4 @@ max_reach_prob = extra_info_cco(1).xmax_reach_prob;
 fprintf('Lower bound on the maximum reach probability: %1.2f\n', max_reach_prob)
 %     fprintf('Time taken for the reach set computation (genzps-open): %1.2f\n', elapsed_time_genzps)
 %     fprintf('Time taken for the reach set computation (lag-under): %1.2f\n', elapsed_time_lag)
-save('matfiles/results/buildingAutomationSystem4D.mat');
+save(strcat(root_folder, 'results/buildingAutomationSystem4D.mat'));

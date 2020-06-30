@@ -34,7 +34,7 @@ affine_hull_He = [zeros(n_intg - n_non_zeroed, n_non_zeroed), ...
                   x_fixed_init];
 init_safe_set_affine_poly = Polyhedron('He', affine_hull_He);
 
-fprintf('Chance constrained approach for alpha=%1.2f\n',prob_thresh);
+fprintf('Convex chance-constrained approach for alpha=%1.2f\n', prob_thresh);
 timer_cco = tic;
 cc_options = SReachSetOptions('term', 'chance-open', 'set_of_dir_vecs', ...
     set_of_direction_vectors_cco, 'init_safe_set_affine', ...
@@ -46,7 +46,7 @@ cc_options = SReachSetOptions('term', 'chance-open', 'set_of_dir_vecs', ...
 elapsed_time_cco = toc(timer_cco);
 
 %% Disp results
-fprintf('\n\nTime taken for the reach set computation: %1.2f\n', ...
+fprintf('Time taken for the reach set computation: %1.2f\n', ...
     elapsed_time_cco);
 underapproximate_stochastic_reach_avoid_polytope_cco_2D = ...
     Polyhedron(underapproximate_stochastic_reach_avoid_polytope_cco.V(:, 1:2));
@@ -61,4 +61,4 @@ safe_set_2D_volume;
 fprintf('Ratio of volume (2D): %1.2f\n', ratio_volume)
 max_reach_prob = extra_info_cco(1).xmax_reach_prob;
 fprintf('Lower bound on the maximum reach probability: %1.2f\n', max_reach_prob)
-save(sprintf('matfiles/results/chainOfIntegrators%dD.mat', n_intg));
+save(sprintf('%sresults/chainOfIntegrators%dD.mat', root_folder, n_intg));

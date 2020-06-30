@@ -1,7 +1,7 @@
-list_of_all_matfiles = dir('matfiles/results/*.mat');
+list_of_all_matfiles = dir(strcat(root_folder, 'results/*.mat'));
 T = [];
 for index = 1:length(list_of_all_matfiles)
-    filename = strcat('matfiles/results/', list_of_all_matfiles(index).name);
+    filename = strcat(root_folder, 'results/', list_of_all_matfiles(index).name);
     data = load(filename, 'prob_thresh', 'max_reach_prob', ...
         'elapsed_time_cco', 'ratio_volume');
 %     data.prob_thresh = sprintf('%1.2f', data.prob_thresh);
@@ -12,5 +12,5 @@ for index = 1:length(list_of_all_matfiles)
     T = [T;struct2table(data)];
 end
 T.Properties.RowNames = {list_of_all_matfiles.name};
-writetable(T, 'matfiles/results/table.txt', 'Delimiter', ',', ...
+writetable(T, strcat(root_folder, 'results/table.csv'), 'Delimiter', ',', ...
     'WriteRowNames', true);

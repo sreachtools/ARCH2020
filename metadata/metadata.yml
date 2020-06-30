@@ -1,0 +1,30 @@
+metadata_version: 1
+name: 'Repeatability module for ARCH-COMP20: SReachTools'
+description: |-
+  We provide SReachTools code base used for "ARCH 2020 Category Report: Stochastic Models" repeatability evaluation. We tested SReachTools on three different benchmarks --- automated anesthesia delivery system, building automation system, and chain of integrators. The original code repository is at https://github.com/sreachtools/ARCH2020.  The capsule takes about 5 minutes to complete computation.
+
+  - We obtain the table reported in ARCH 2020 using the script `code/parseMatfilesResults.m` (executed automatically by `runall.m`). We store the table in `/results/table.csv`.
+  - We have commented parts of the code to omit testing the chain of integrators benchmark for dimension n in {10, 20, 40, 100} to save runtime. Please uncomment lines 58 to 78  in `runall.m` to evaluate these time-consuming cases as well.
+  - We use SEDUMI, a free solver that ships with CVX, in this capsule. We used GUROBI, a commercial solver, to report the results in the paper. Change line 3 to GUROBI, after installing it locally if desired.
+  - We do not produce any figures.
+tags:
+- stochastic-verification
+- stochastic-reachability
+- sreachtools
+- safety
+- MATLAB
+- stochastic-optimal-control
+- ARCH2020
+authors:
+- name: Abraham P. Vinod
+  affiliations:
+  - name: University of Texas at Austin
+- name: Joseph D. Gleason
+  affiliations:
+  - name: Air Force Research Laboratory
+- name: Meeko M. K. Oishi
+  affiliations:
+  - name: University of New Mexico
+corresponding_contributor:
+  name: Abraham P. Vinod
+  email: aby.vinod@gmail.com

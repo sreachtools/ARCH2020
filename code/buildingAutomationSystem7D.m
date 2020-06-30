@@ -48,7 +48,7 @@ x6_init = 20;
 x7_init = 20;
 
 %% Construction of the chance-open-based underapproximation
-disp('>>> Chance-constraint-based underapproximation');
+fprintf('Convex chance-constrained approach for alpha=%1.2f\n', prob_thresh);
 timerVal = tic;
 % Directions to explore
 set_of_dir_vecs = [-1,1;
@@ -84,7 +84,7 @@ end
 %     [x2_init;x3_init;x4_init;x5_init;x6_init;x7_init]);
 
 %% Disp
-fprintf('\n\nTime taken for the reach set computation: %1.2f\n', ...
+fprintf('Time taken for the reach set computation: %1.2f\n', ...
     elapsed_time_cco);
 ratio_volume = abs(diff(underapprox_stoch_reach_polytope_cco_1D.V)) ...
     / abs(diff(safe_set.V(:, 1)));
@@ -97,4 +97,4 @@ fprintf('Lower bound on the maximum reach probability: %1.2f\n', max_reach_prob)
 % disp(lag_stoch_viab_set_1D.V)
 % disp('Safe set')
 % disp(safe_set.V(:,1))
-save('matfiles/results/buildingAutomationSystem7D.mat');
+save(strcat(root_folder, 'results/buildingAutomationSystem7D.mat'));

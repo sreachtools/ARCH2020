@@ -1,0 +1,1029 @@
+
+
+automatedAnesthesiaDelivery 3D
+>>> Chance-constraint-based underapproximation
+
+
+Time taken for the reach set computation: 7.16
+Ratio of volume: 0.70
+Maximum probability point: 1.00
+
+
+automatedAnesthesiaDelivery 3D
+>>> Chance-constraint-based underapproximation
+
+
+Time taken for the reach set computation: 7.29
+Ratio of volume: 0.70
+Maximum probability point: 1.00
+
+
+buildingAutomationSystem Case 1: 4D
+>>> Chance-constraint-based underapproximation
+
+
+Lower bound on reach-avoid probability (chance-open): 0.997837
+Time taken for the reach set computation (chance-open): 2.12
+Ratio of 2D volume: 0.97
+
+
+buildingAutomationSystem Case 2: 7D
+>>> Chance-constraint-based underapproximation
+
+
+Lower bound on reach-avoid probability (chance-open): 0.999900
+Time taken for the reach set computation (chance-open): 1.49
+Ratio of volume: 0.87
+
+
+chainOfIntegrators 2D using 32 vectors
+Chance constrained approach for alpha=0.80
+
+
+Lower bound on reach-avoid probability (chance-open): 0.999900
+Time taken for the reach set computation (chance-open): 4.66
+Ratio of volume: 0.63
+
+
+chainOfIntegrators 3D using 32 vectors
+Chance constrained approach for alpha=0.80
+
+
+Lower bound on reach-avoid probability (chance-open): 0.999900
+Time taken for the reach set computation (chance-open): 6.13
+Ratio of volume: 0.60
+
+
+chainOfIntegrators 4D using 32 vectors
+Chance constrained approach for alpha=0.80
+
+
+Lower bound on reach-avoid probability (chance-open): 0.999900
+Time taken for the reach set computation (chance-open): 7.00
+Ratio of volume: 0.59
+
+
+chainOfIntegrators 5D using 32 vectors
+Chance constrained approach for alpha=0.80
+
+
+Lower bound on reach-avoid probability (chance-open): 0.999900
+Time taken for the reach set computation (chance-open): 6.92
+Ratio of volume: 0.59
+
+
+chainOfIntegrators 6D using 32 vectors
+Chance constrained approach for alpha=0.80
+
+
+Lower bound on reach-avoid probability (chance-open): 0.999900
+Time taken for the reach set computation (chance-open): 7.59
+Ratio of volume: 0.59
+
+
+chainOfIntegrators 7D using 32 vectors
+Chance constrained approach for alpha=0.80
+
+
+Lower bound on reach-avoid probability (chance-open): 0.999900
+Time taken for the reach set computation (chance-open): 12.66
+Ratio of volume: 0.59
+
+
+chainOfIntegrators 10D using 32 vectors
+Chance constrained approach for alpha=0.80
+
+
+Lower bound on reach-avoid probability (chance-open): 0.999900
+Time taken for the reach set computation (chance-open): 17.69
+Ratio of volume: 0.59
+
+
+chainOfIntegrators 20D using 32 vectors
+Chance constrained approach for alpha=0.80
+Computing an initial state with maximum safety probability
+Polytope exists | Maximum reach probability: 0.9999 >= 0.8000 (level of the stochastic reach set)Maximum reach probability: 1.00 > 0.80 (given threshold) | Polytope exists 
+Computing the Chebyshev center of initial safe set with safety probability above the prescribed threshold
+Computing the polytope via the Chebyshev center
+Analyzing direction :   0/  32   1/  32   2/  32   3/  32   4/  32   5/  32   6/  32   7/  32   8/  32   9/  32  10/  32  11/  32  12/  32  13/  32  14/  32  15/  32  16/  32  17/  32  18/  32  19/  32  20/  32  21/  32  22/  32  23/  32  24/  32  25/  32  26/  32  27/  32  28/  32  29/  32  30/  32  31/  32  32/  32
+
+
+Lower bound on reach-avoid probability (chance-open): 0.999900
+Time taken for the reach set computation (chance-open): 22.07
+Ratio of volume: 0.59
+
+
+chainOfIntegrators 40D using 32 vectors
+Chance constrained approach for alpha=0.80
+Computing an initial state with maximum safety probability
+Polytope exists | Maximum reach probability: 0.9999 >= 0.8000 (level of the stochastic reach set)Maximum reach probability: 1.00 > 0.80 (given threshold) | Polytope exists 
+Computing the Chebyshev center of initial safe set with safety probability above the prescribed threshold
+Computing the polytope via the Chebyshev center
+Analyzing direction :   0/  32   1/  32   2/  32   3/  32   4/  32   5/  32   6/  32   7/  32   8/  32   9/  32  10/  32  11/  32  12/  32  13/  32  14/  32  15/  32  16/  32  17/  32  18/  32  19/  32  20/  32  21/  32  22/  32  23/  32  24/  32  25/  32  26/  32  27/  32  28/  32  29/  32  30/  32  31/  32  32/  32
+
+
+Lower bound on reach-avoid probability (chance-open): 0.999900
+Time taken for the reach set computation (chance-open): 50.34
+Ratio of volume: 0.59
+
+
+automatedAnesthesiaDelivery 3D
+>>> Chance-constraint-based underapproximation
+
+
+Time taken for the reach set computation: 7.38
+Ratio of volume: 0.70
+Maximum probability point: 1.00
+
+
+buildingAutomationSystem Case 1: 4D
+>>> Chance-constraint-based underapproximation
+
+
+Lower bound on reach-avoid probability (chance-open): 0.997837
+Time taken for the reach set computation (chance-open): 2.56
+Ratio of 2D volume: 0.97
+
+
+buildingAutomationSystem Case 2: 7D
+>>> Chance-constraint-based underapproximation
+
+
+Lower bound on reach-avoid probability (chance-open): 0.999900
+Time taken for the reach set computation (chance-open): 1.56
+Ratio of volume: 0.87
+
+
+chainOfIntegrators 2D using 32 vectors
+Chance constrained approach for alpha=0.80
+
+
+Lower bound on reach-avoid probability (chance-open): 0.999900
+Time taken for the reach set computation (chance-open): 5.31
+Ratio of volume: 0.63
+
+
+chainOfIntegrators 3D using 32 vectors
+Chance constrained approach for alpha=0.80
+
+
+Lower bound on reach-avoid probability (chance-open): 0.999900
+Time taken for the reach set computation (chance-open): 6.22
+Ratio of volume: 0.60
+
+
+chainOfIntegrators 4D using 32 vectors
+Chance constrained approach for alpha=0.80
+
+
+Lower bound on reach-avoid probability (chance-open): 0.999900
+Time taken for the reach set computation (chance-open): 6.64
+Ratio of volume: 0.59
+
+
+chainOfIntegrators 5D using 32 vectors
+Chance constrained approach for alpha=0.80
+
+
+Lower bound on reach-avoid probability (chance-open): 0.999900
+Time taken for the reach set computation (chance-open): 8.19
+Ratio of volume: 0.59
+
+
+chainOfIntegrators 6D using 32 vectors
+Chance constrained approach for alpha=0.80
+
+
+Lower bound on reach-avoid probability (chance-open): 0.999900
+Time taken for the reach set computation (chance-open): 9.10
+Ratio of volume: 0.59
+
+
+chainOfIntegrators 7D using 32 vectors
+Chance constrained approach for alpha=0.80
+
+
+Lower bound on reach-avoid probability (chance-open): 0.999900
+Time taken for the reach set computation (chance-open): 11.24
+Ratio of volume: 0.59
+
+
+chainOfIntegrators 10D using 32 vectors
+Chance constrained approach for alpha=0.80
+
+
+Lower bound on reach-avoid probability (chance-open): 0.999900
+Time taken for the reach set computation (chance-open): 16.47
+Ratio of volume: 0.59
+
+
+chainOfIntegrators 20D using 32 vectors
+Chance constrained approach for alpha=0.80
+Computing an initial state with maximum safety probability
+Polytope exists | Maximum reach probability: 0.9999 >= 0.8000 (level of the stochastic reach set)Maximum reach probability: 1.00 > 0.80 (given threshold) | Polytope exists 
+Computing the Chebyshev center of initial safe set with safety probability above the prescribed threshold
+Computing the polytope via the Chebyshev center
+Analyzing direction :   0/  32   1/  32   2/  32   3/  32   4/  32   5/  32   6/  32   7/  32   8/  32   9/  32  10/  32  11/  32  12/  32  13/  32  14/  32  15/  32  16/  32  17/  32  18/  32  19/  32  20/  32  21/  32  22/  32  23/  32  24/  32  25/  32  26/  32  27/  32  28/  32  29/  32  30/  32  31/  32  32/  32
+
+
+Lower bound on reach-avoid probability (chance-open): 0.999900
+Time taken for the reach set computation (chance-open): 24.14
+Ratio of volume: 0.59
+
+
+chainOfIntegrators 40D using 32 vectors
+Chance constrained approach for alpha=0.80
+Computing an initial state with maximum safety probability
+Polytope exists | Maximum reach probability: 0.9999 >= 0.8000 (level of the stochastic reach set)Maximum reach probability: 1.00 > 0.80 (given threshold) | Polytope exists 
+Computing the Chebyshev center of initial safe set with safety probability above the prescribed threshold
+Computing the polytope via the Chebyshev center
+Analyzing direction :   0/  32   1/  32   2/  32   3/  32   4/  32   5/  32   6/  32   7/  32   8/  32   9/  32  10/  32  11/  32  12/  32  13/  32  14/  32  15/  32  16/  32  17/  32  18/  32  19/  32  20/  32  21/  32  22/  32  23/  32  24/  32  25/  32  26/  32  27/  32  28/  32  29/  32  30/  32  31/  32  32/  32
+
+
+Lower bound on reach-avoid probability (chance-open): 0.999900
+Time taken for the reach set computation (chance-open): 53.09
+Ratio of volume: 0.59
+
+
+chainOfIntegrators 100D using 32 vectors
+Chance constrained approach for alpha=0.80
+Computing an initial state with maximum safety probability
+Polytope exists | Maximum reach probability: 0.9999 >= 0.8000 (level of the stochastic reach set)Maximum reach probability: 1.00 > 0.80 (given threshold) | Polytope exists 
+Computing the Chebyshev center of initial safe set with safety probability above the prescribed threshold
+Computing the polytope via the Chebyshev center
+Analyzing direction :   0/  32   1/  32   2/  32   3/  32   4/  32   5/  32   6/  32   7/  32   8/  32   9/  32  10/  32  11/  32  12/  32  13/  32  14/  32  15/  32  16/  32  17/  32  18/  32  19/  32  20/  32  21/  32  22/  32  23/  32  24/  32  25/  32  26/  32  27/  32  28/  32  29/  32  30/  32  31/  32  32/  32
+
+
+Lower bound on reach-avoid probability (chance-open): 0.999900
+Time taken for the reach set computation (chance-open): 226.29
+Ratio of volume: 0.59
+
+
+automatedAnesthesiaDelivery 3D
+>>> Chance-constraint-based underapproximation
+
+
+Time taken for the reach set computation: 7.67
+Ratio of volume (3D): 0.70
+Lower bound on the maximum reach probability: 1.00
+
+
+buildingAutomationSystem Case 1: 4D
+>>> Chance-constraint-based underapproximation
+
+
+Time taken for the reach set computation: 2.24
+Ratio of volume (2D): 0.97
+Lower bound on the maximum reach probability: 1.00
+
+
+buildingAutomationSystem Case 2: 7D
+>>> Chance-constraint-based underapproximation
+
+
+Time taken for the reach set computation: 1.45
+Ratio of volume (1D): 0.87
+Lower bound on the maximum reach probability: 1.00
+
+
+chainOfIntegrators 2D using 32 vectors
+Chance constrained approach for alpha=0.80
+
+
+Time taken for the reach set computation: 5.02
+Ratio of volume (2D): 0.63
+Lower bound on the maximum reach probability: 1.00
+
+
+chainOfIntegrators 3D using 32 vectors
+Chance constrained approach for alpha=0.80
+
+
+Time taken for the reach set computation: 5.73
+Ratio of volume (2D): 0.60
+Lower bound on the maximum reach probability: 1.00
+
+
+chainOfIntegrators 4D using 32 vectors
+Chance constrained approach for alpha=0.80
+
+
+Time taken for the reach set computation: 6.50
+Ratio of volume (2D): 0.59
+Lower bound on the maximum reach probability: 1.00
+
+
+chainOfIntegrators 5D using 32 vectors
+Chance constrained approach for alpha=0.80
+
+
+Time taken for the reach set computation: 7.18
+Ratio of volume (2D): 0.59
+Lower bound on the maximum reach probability: 1.00
+
+
+chainOfIntegrators 6D using 32 vectors
+Chance constrained approach for alpha=0.80
+
+
+Time taken for the reach set computation: 7.95
+Ratio of volume (2D): 0.59
+Lower bound on the maximum reach probability: 1.00
+
+
+chainOfIntegrators 7D using 32 vectors
+Chance constrained approach for alpha=0.80
+
+
+Time taken for the reach set computation: 11.28
+Ratio of volume (2D): 0.59
+Lower bound on the maximum reach probability: 1.00
+
+
+chainOfIntegrators 10D using 32 vectors
+Chance constrained approach for alpha=0.80
+
+
+Time taken for the reach set computation: 16.03
+Ratio of volume (2D): 0.59
+Lower bound on the maximum reach probability: 1.00
+
+
+chainOfIntegrators 20D using 32 vectors
+Chance constrained approach for alpha=0.80
+Computing an initial state with maximum safety probability
+Polytope exists | Maximum reach probability: 0.9999 >= 0.8000 (level of the stochastic reach set)Maximum reach probability: 1.00 > 0.80 (given threshold) | Polytope exists 
+Computing the Chebyshev center of initial safe set with safety probability above the prescribed threshold
+Computing the polytope via the Chebyshev center
+Analyzing direction :   0/  32   1/  32   2/  32   3/  32   4/  32   5/  32   6/  32   7/  32   8/  32   9/  32  10/  32  11/  32  12/  32  13/  32  14/  32  15/  32  16/  32  17/  32  18/  32  19/  32  20/  32  21/  32  22/  32  23/  32  24/  32  25/  32  26/  32  27/  32  28/  32  29/  32  30/  32  31/  32  32/  32
+
+
+Time taken for the reach set computation: 22.46
+Ratio of volume (2D): 0.59
+Lower bound on the maximum reach probability: 1.00
+
+
+chainOfIntegrators 40D using 32 vectors
+Chance constrained approach for alpha=0.80
+Computing an initial state with maximum safety probability
+Polytope exists | Maximum reach probability: 0.9999 >= 0.8000 (level of the stochastic reach set)Maximum reach probability: 1.00 > 0.80 (given threshold) | Polytope exists 
+Computing the Chebyshev center of initial safe set with safety probability above the prescribed threshold
+Computing the polytope via the Chebyshev center
+Analyzing direction :   0/  32   1/  32   2/  32   3/  32   4/  32   5/  32   6/  32   7/  32   8/  32   9/  32  10/  32  11/  32  12/  32  13/  32  14/  32  15/  32  16/  32  17/  32  18/  32  19/  32  20/  32  21/  32  22/  32  23/  32  24/  32  25/  32  26/  32  27/  32  28/  32  29/  32  30/  32  31/  32  32/  32
+
+
+Time taken for the reach set computation: 51.59
+Ratio of volume (2D): 0.59
+Lower bound on the maximum reach probability: 1.00
+
+
+chainOfIntegrators 100D using 32 vectors
+Chance constrained approach for alpha=0.80
+Computing an initial state with maximum safety probability
+Polytope exists | Maximum reach probability: 0.9999 >= 0.8000 (level of the stochastic reach set)Maximum reach probability: 1.00 > 0.80 (given threshold) | Polytope exists 
+Computing the Chebyshev center of initial safe set with safety probability above the prescribed threshold
+Computing the polytope via the Chebyshev center
+Analyzing direction :   0/  32   1/  32   2/  32   3/  32   4/  32   5/  32   6/  32   7/  32   8/  32   9/  32  10/  32  11/  32  12/  32  13/  32  14/  32  15/  32  16/  32  17/  32  18/  32  19/  32  20/  32  21/  32  22/  32  23/  32  24/  32  25/  32  26/  32  27/  32  28/  32  29/  32  30/  32  31/  32  32/  32
+
+
+Time taken for the reach set computation: 226.36
+Ratio of volume (2D): 0.59
+Lower bound on the maximum reach probability: 1.00
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cvx_solver', '/workspace/Software/MATLAB/Aux/cvx/commands/cvx_solver.m', 54)" style="font-weight:bold">cvx_solver</a> (<a href="matlab: opentoline('/workspace/Software/MATLAB/Aux/cvx/commands/cvx_solver.m',54,0)">line 54</a>)
+The global CVX solver selection cannot be changed while a
+model is being constructed.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fix_cvx_solver', '/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/fix_cvx_solver.m', 7)" style="font-weight:bold">fix_cvx_solver</a> (<a href="matlab: opentoline('/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/fix_cvx_solver.m',7,0)">line 7</a>)
+    evalc('cvx_solver(''Mosek'');cvx_save_prefs;');
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runall', '/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/runall.m', 10)" style="font-weight:bold">runall</a> (<a href="matlab: opentoline('/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/runall.m',10,0)">line 10</a>)
+clearvars;close all;srtinit;fix_cvx_solver;
+} 
+cvx_begin;cvx_end;
+[Warning: Empty cvx model; no action taken.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cvx_end', '/workspace/Software/MATLAB/Aux/cvx/commands/cvx_end.m', 22)" style="font-weight:bold">cvx_end</a> (<a href="matlab: opentoline('/workspace/Software/MATLAB/Aux/cvx/commands/cvx_end.m',22,0)">line 22</a>)] 
+runall
+
+
+automatedAnesthesiaDelivery 3D
+>>> Chance-constraint-based underapproximation
+[Warning: Sanitized covariance matrix since eigenvalues >
+-1e-15 and <1e-10 found!
+The lowest eigenvalue is -2.5e-18
+New covariance matrix has all such eigenvalues set to 0.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('RandomVector', '/workspace/git/SReachTools/src/classes/RandomVector.m', 240)" style="font-weight:bold">RandomVector</a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/classes/RandomVector.m',240,0)">line 240</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('RandomVector/mtimes', '/workspace/git/SReachTools/src/classes/RandomVector.m', 399)" style="font-weight:bold"> * </a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/classes/RandomVector.m',399,0)">line 399</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SReachSetCcO', '/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSetCcO.m', 160)" style="font-weight:bold">SReachSetCcO</a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSetCcO.m',160,0)">line 160</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SReachSet', '/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSet.m', 224)" style="font-weight:bold">SReachSet</a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSet.m',224,0)">line 224</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('automatedAnesthesiaDelivery3D', '/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/automatedAnesthesiaDelivery3D.m', 103)" style="font-weight:bold">automatedAnesthesiaDelivery3D</a> (<a href="matlab: opentoline('/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/automatedAnesthesiaDelivery3D.m',103,0)">line 103</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runall', '/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/runall.m', 11)" style="font-weight:bold">runall</a> (<a href="matlab: opentoline('/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/runall.m',11,0)">line 11</a>)] 
+
+
+Time taken for the reach set computation: 11.10
+Ratio of volume (3D): 0.55
+Lower bound on the maximum reach probability: 1.00
+{Undefined function or variable 'root_folder'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('automatedAnesthesiaDelivery3D', '/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/automatedAnesthesiaDelivery3D.m', 131)" style="font-weight:bold">automatedAnesthesiaDelivery3D</a> (<a href="matlab: opentoline('/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/automatedAnesthesiaDelivery3D.m',131,0)">line 131</a>)
+save(strcat(root_folder,
+'results/automatedAnesthesiaDelivery3D.mat'));
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runall', '/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/runall.m', 11)" style="font-weight:bold">runall</a> (<a href="matlab: opentoline('/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/runall.m',11,0)">line 11</a>)
+automatedAnesthesiaDelivery3D
+} 
+opentoline('/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/automatedAnesthesiaDelivery3D.m',131,0)
+runall
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('presolve_setup')" style="font-weight:bold">presolve_setup</a>
+Too many output arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runall', '/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/runall.m', 7)" style="font-weight:bold">runall</a> (<a href="matlab: opentoline('/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/runall.m',7,0)">line 7</a>)
+clearvars;srtinit;root_folder = presolve_setup;
+} 
+opentoline('/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/runall.m',7,0)
+runall
+
+
+automatedAnesthesiaDelivery 3D
+>>> Chance-constraint-based underapproximation
+[Warning: Sanitized covariance matrix since eigenvalues >
+-1e-15 and <1e-10 found!
+The lowest eigenvalue is -2.5e-18
+New covariance matrix has all such eigenvalues set to 0.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('RandomVector', '/workspace/git/SReachTools/src/classes/RandomVector.m', 240)" style="font-weight:bold">RandomVector</a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/classes/RandomVector.m',240,0)">line 240</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('RandomVector/mtimes', '/workspace/git/SReachTools/src/classes/RandomVector.m', 399)" style="font-weight:bold"> * </a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/classes/RandomVector.m',399,0)">line 399</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SReachSetCcO', '/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSetCcO.m', 160)" style="font-weight:bold">SReachSetCcO</a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSetCcO.m',160,0)">line 160</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SReachSet', '/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSet.m', 224)" style="font-weight:bold">SReachSet</a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSet.m',224,0)">line 224</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('automatedAnesthesiaDelivery3D', '/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/automatedAnesthesiaDelivery3D.m', 103)" style="font-weight:bold">automatedAnesthesiaDelivery3D</a> (<a href="matlab: opentoline('/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/automatedAnesthesiaDelivery3D.m',103,0)">line 103</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runall', '/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/runall.m', 8)" style="font-weight:bold">runall</a> (<a href="matlab: opentoline('/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/runall.m',8,0)">line 8</a>)] 
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cvx/cvx_classify', '/workspace/Software/MATLAB/Aux/cvx/lib/@cvx/cvx_classify.m', 40)" style="font-weight:bold">cvx/cvx_classify</a> (<a href="matlab: opentoline('/workspace/Software/MATLAB/Aux/cvx/lib/@cvx/cvx_classify.m',40,0)">line
+40</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cvx/times', '/workspace/Software/MATLAB/Aux/cvx/builtins/@cvx/times.m', 125)" style="font-weight:bold"> .* </a> (<a href="matlab: opentoline('/workspace/Software/MATLAB/Aux/cvx/builtins/@cvx/times.m',125,0)">line 125</a>)
+vy = cvx_classify( y );
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SReachSetCcO>computePolytopeFromAnchor', '/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSetCcO.m', 533)" style="font-weight:bold">SReachSetCcO>computePolytopeFromAnchor</a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSetCcO.m',533,0)">line 533</a>)
+                    norminvover(deltai_indx) >=
+                    invcdf_approx_m .* ...
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SReachSetCcO', '/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSetCcO.m', 278)" style="font-weight:bold">SReachSetCcO</a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSetCcO.m',278,0)">line 278</a>)
+                    computePolytopeFromAnchor(cheby_soln,
+                    sys, options, ...
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SReachSet', '/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSet.m', 224)" style="font-weight:bold">SReachSet</a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSet.m',224,0)">line 224</a>)
+                    [stoch_reach_set, extra_info] =
+                    SReachSetCcO(method_str, ...
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('automatedAnesthesiaDelivery3D', '/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/automatedAnesthesiaDelivery3D.m', 103)" style="font-weight:bold">automatedAnesthesiaDelivery3D</a> (<a href="matlab: opentoline('/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/automatedAnesthesiaDelivery3D.m',103,0)">line 103</a>)
+[underapprox_stoch_reach_polytope_cco, extra_info_cco] =
+SReachSet('term', ...
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runall', '/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/runall.m', 8)" style="font-weight:bold">runall</a> (<a href="matlab: opentoline('/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/runall.m',8,0)">line 8</a>)
+automatedAnesthesiaDelivery3D
+} 
+runall
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cvx_solver', '/workspace/Software/MATLAB/Aux/cvx/commands/cvx_solver.m', 54)" style="font-weight:bold">cvx_solver</a> (<a href="matlab: opentoline('/workspace/Software/MATLAB/Aux/cvx/commands/cvx_solver.m',54,0)">line 54</a>)
+The global CVX solver selection cannot be changed while a
+model is being constructed.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('presolve_setup', '/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/presolve_setup.m', 7)" style="font-weight:bold">presolve_setup</a> (<a href="matlab: opentoline('/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/presolve_setup.m',7,0)">line 7</a>)
+    evalc('cvx_solver(''Mosek'');cvx_save_prefs;');
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runall', '/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/runall.m', 7)" style="font-weight:bold">runall</a> (<a href="matlab: opentoline('/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/runall.m',7,0)">line 7</a>)
+clearvars;srtinit;root_folder = presolve_setup;
+} 
+cvx_begin;cvx_end;
+[Warning: Empty cvx model; no action taken.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cvx_end', '/workspace/Software/MATLAB/Aux/cvx/commands/cvx_end.m', 22)" style="font-weight:bold">cvx_end</a> (<a href="matlab: opentoline('/workspace/Software/MATLAB/Aux/cvx/commands/cvx_end.m',22,0)">line 22</a>)] 
+runall
+
+
+automatedAnesthesiaDelivery 3D
+>>> Chance-constraint-based underapproximation
+[Warning: Sanitized covariance matrix since eigenvalues >
+-1e-15 and <1e-10 found!
+The lowest eigenvalue is -2.5e-18
+New covariance matrix has all such eigenvalues set to 0.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('RandomVector', '/workspace/git/SReachTools/src/classes/RandomVector.m', 240)" style="font-weight:bold">RandomVector</a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/classes/RandomVector.m',240,0)">line 240</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('RandomVector/mtimes', '/workspace/git/SReachTools/src/classes/RandomVector.m', 399)" style="font-weight:bold"> * </a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/classes/RandomVector.m',399,0)">line 399</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SReachSetCcO', '/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSetCcO.m', 160)" style="font-weight:bold">SReachSetCcO</a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSetCcO.m',160,0)">line 160</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SReachSet', '/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSet.m', 224)" style="font-weight:bold">SReachSet</a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSet.m',224,0)">line 224</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('automatedAnesthesiaDelivery3D', '/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/automatedAnesthesiaDelivery3D.m', 103)" style="font-weight:bold">automatedAnesthesiaDelivery3D</a> (<a href="matlab: opentoline('/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/automatedAnesthesiaDelivery3D.m',103,0)">line 103</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runall', '/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/runall.m', 8)" style="font-weight:bold">runall</a> (<a href="matlab: opentoline('/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/runall.m',8,0)">line 8</a>)] 
+
+
+Time taken for the reach set computation: 11.57
+Ratio of volume (3D): 0.55
+Lower bound on the maximum reach probability: 1.00
+
+
+buildingAutomationSystem Case 1: 4D
+>>> Chance-constraint-based underapproximation
+
+
+Time taken for the reach set computation: 4.51
+Ratio of volume (2D): 0.97
+Lower bound on the maximum reach probability: 1.00
+
+
+buildingAutomationSystem Case 2: 7D
+>>> Chance-constraint-based underapproximation
+[Warning: Sanitized covariance matrix since eigenvalues >
+-1e-15 and <1e-10 found!
+The lowest eigenvalue is -8.3e-20
+New covariance matrix has all such eigenvalues set to 0.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('RandomVector', '/workspace/git/SReachTools/src/classes/RandomVector.m', 240)" style="font-weight:bold">RandomVector</a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/classes/RandomVector.m',240,0)">line 240</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('RandomVector/mtimes', '/workspace/git/SReachTools/src/classes/RandomVector.m', 399)" style="font-weight:bold"> * </a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/classes/RandomVector.m',399,0)">line 399</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SReachSetCcO', '/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSetCcO.m', 160)" style="font-weight:bold">SReachSetCcO</a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSetCcO.m',160,0)">line 160</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SReachSet', '/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSet.m', 224)" style="font-weight:bold">SReachSet</a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSet.m',224,0)">line 224</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('buildingAutomationSystem7D', '/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/buildingAutomationSystem7D.m', 62)" style="font-weight:bold">buildingAutomationSystem7D</a> (<a href="matlab: opentoline('/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/buildingAutomationSystem7D.m',62,0)">line 62</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runall', '/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/runall.m', 16)" style="font-weight:bold">runall</a> (<a href="matlab: opentoline('/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/runall.m',16,0)">line 16</a>)] 
+
+
+Time taken for the reach set computation: 5.28
+Ratio of volume (1D): 0.87
+Lower bound on the maximum reach probability: 1.00
+
+
+chainOfIntegrators 2D using 32 vectors
+Chance constrained approach for alpha=0.80
+
+
+Time taken for the reach set computation: 9.07
+Ratio of volume (2D): 0.63
+Lower bound on the maximum reach probability: 1.00
+
+Saving to: /workspace/git/PaperCodes/2020/ARCH_StochasticModeling/matlab.mat
+
+
+
+chainOfIntegrators 3D using 32 vectors
+Chance constrained approach for alpha=0.80
+
+
+Time taken for the reach set computation: 9.93
+Ratio of volume (2D): 0.60
+Lower bound on the maximum reach probability: 1.00
+
+Saving to: /workspace/git/PaperCodes/2020/ARCH_StochasticModeling/matlab.mat
+
+
+
+chainOfIntegrators 4D using 32 vectors
+Chance constrained approach for alpha=0.80
+
+
+Time taken for the reach set computation: 12.67
+Ratio of volume (2D): 0.59
+Lower bound on the maximum reach probability: 1.00
+
+Saving to: /workspace/git/PaperCodes/2020/ARCH_StochasticModeling/matlab.mat
+
+
+
+chainOfIntegrators 5D using 32 vectors
+Chance constrained approach for alpha=0.80
+
+
+Time taken for the reach set computation: 18.95
+Ratio of volume (2D): 0.59
+Lower bound on the maximum reach probability: 1.00
+
+Saving to: /workspace/git/PaperCodes/2020/ARCH_StochasticModeling/matlab.mat
+
+
+
+chainOfIntegrators 6D using 32 vectors
+Chance constrained approach for alpha=0.80
+
+
+Time taken for the reach set computation: 20.87
+Ratio of volume (2D): 0.59
+Lower bound on the maximum reach probability: 1.00
+
+Saving to: /workspace/git/PaperCodes/2020/ARCH_StochasticModeling/matlab.mat
+
+
+
+chainOfIntegrators 7D using 32 vectors
+Chance constrained approach for alpha=0.80
+
+
+Time taken for the reach set computation: 27.49
+Ratio of volume (2D): 0.59
+Lower bound on the maximum reach probability: 1.00
+
+Saving to: /workspace/git/PaperCodes/2020/ARCH_StochasticModeling/matlab.mat
+
+
+
+chainOfIntegrators 10D using 32 vectors
+Chance constrained approach for alpha=0.80
+
+
+Time taken for the reach set computation: 59.21
+Ratio of volume (2D): 0.59
+Lower bound on the maximum reach probability: 1.00
+
+Saving to: /workspace/git/PaperCodes/2020/ARCH_StochasticModeling/matlab.mat
+
+
+
+chainOfIntegrators 20D using 32 vectors
+Chance constrained approach for alpha=0.80
+Computing an initial state with maximum safety probability
+Polytope exists | Maximum reach probability: 0.9999 >= 0.8000 (level of the stochastic reach set)Maximum reach probability: 1.00 > 0.80 (given threshold) | Polytope exists 
+Computing the Chebyshev center of initial safe set with safety probability above the prescribed threshold
+Computing the polytope via the Chebyshev center
+Analyzing direction :   0/  32   1/  32   2/  32   3/  32   4/  32   5/  32   6/  32{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cvxprob/eliminate', '/workspace/Software/MATLAB/Aux/cvx/lib/@cvxprob/eliminate.m', 171)" style="font-weight:bold">cvxprob/eliminate</a> (<a href="matlab: opentoline('/workspace/Software/MATLAB/Aux/cvx/lib/@cvxprob/eliminate.m',171,0)">line
+171</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cvxprob/solve', '/workspace/Software/MATLAB/Aux/cvx/lib/@cvxprob/solve.m', 18)" style="font-weight:bold">cvxprob/solve</a> (<a href="matlab: opentoline('/workspace/Software/MATLAB/Aux/cvx/lib/@cvxprob/solve.m',18,0)">line 18</a>)
+[ At, cones, sgn, Q, P, dualized ] = eliminate( prob, true,
+shim.dualize );
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cvx_end', '/workspace/Software/MATLAB/Aux/cvx/commands/cvx_end.m', 88)" style="font-weight:bold">cvx_end</a> (<a href="matlab: opentoline('/workspace/Software/MATLAB/Aux/cvx/commands/cvx_end.m',88,0)">line 88</a>)
+        solve( prob );
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SReachSetCcO>computePolytopeFromAnchor', '/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSetCcO.m', 555)" style="font-weight:bold">SReachSetCcO>computePolytopeFromAnchor</a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSetCcO.m',555,0)">line 555</a>)
+        cvx_end
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SReachSetCcO', '/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSetCcO.m', 278)" style="font-weight:bold">SReachSetCcO</a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSetCcO.m',278,0)">line 278</a>)
+                    computePolytopeFromAnchor(cheby_soln,
+                    sys, options, ...
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SReachSet', '/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSet.m', 224)" style="font-weight:bold">SReachSet</a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSet.m',224,0)">line 224</a>)
+                    [stoch_reach_set, extra_info] =
+                    SReachSetCcO(method_str, ...
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('chainOfIntegrators', '/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/chainOfIntegrators.m', 44)" style="font-weight:bold">chainOfIntegrators</a> (<a href="matlab: opentoline('/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/chainOfIntegrators.m',44,0)">line 44</a>)
+    = SReachSet('term','chance-open', sys, prob_thresh,
+    target_tube, ...
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runall', '/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/runall.m', 67)" style="font-weight:bold">runall</a> (<a href="matlab: opentoline('/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/runall.m',67,0)">line 67</a>)
+chainOfIntegrators;
+} 
+save(sprintf('%sresults/chainOfIntegrators%dD.mat', root_folder, n_intg));
+runall
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cvx_solver', '/workspace/Software/MATLAB/Aux/cvx/commands/cvx_solver.m', 54)" style="font-weight:bold">cvx_solver</a> (<a href="matlab: opentoline('/workspace/Software/MATLAB/Aux/cvx/commands/cvx_solver.m',54,0)">line 54</a>)
+The global CVX solver selection cannot be changed while a
+model is being constructed.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('presolve_setup', '/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/presolve_setup.m', 7)" style="font-weight:bold">presolve_setup</a> (<a href="matlab: opentoline('/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/presolve_setup.m',7,0)">line 7</a>)
+    evalc('cvx_solver(''Mosek'');cvx_save_prefs;');
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runall', '/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/runall.m', 1)" style="font-weight:bold">runall</a> (<a href="matlab: opentoline('/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/runall.m',1,0)">line 1</a>)
+root_folder = presolve_setup;
+} 
+cvx_begin;cvx_end;
+[Warning: Empty cvx model; no action taken.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cvx_end', '/workspace/Software/MATLAB/Aux/cvx/commands/cvx_end.m', 22)" style="font-weight:bold">cvx_end</a> (<a href="matlab: opentoline('/workspace/Software/MATLAB/Aux/cvx/commands/cvx_end.m',22,0)">line 22</a>)] 
+runall
+
+
+automatedAnesthesiaDelivery 3D
+>>> Chance-constraint-based underapproximation
+[Warning: Sanitized covariance matrix since eigenvalues >
+-1e-15 and <1e-10 found!
+The lowest eigenvalue is -2.5e-18
+New covariance matrix has all such eigenvalues set to 0.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('RandomVector', '/workspace/git/SReachTools/src/classes/RandomVector.m', 240)" style="font-weight:bold">RandomVector</a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/classes/RandomVector.m',240,0)">line 240</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('RandomVector/mtimes', '/workspace/git/SReachTools/src/classes/RandomVector.m', 399)" style="font-weight:bold"> * </a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/classes/RandomVector.m',399,0)">line 399</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SReachSetCcO', '/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSetCcO.m', 160)" style="font-weight:bold">SReachSetCcO</a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSetCcO.m',160,0)">line 160</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SReachSet', '/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSet.m', 224)" style="font-weight:bold">SReachSet</a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSet.m',224,0)">line 224</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('automatedAnesthesiaDelivery3D', '/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/automatedAnesthesiaDelivery3D.m', 103)" style="font-weight:bold">automatedAnesthesiaDelivery3D</a> (<a href="matlab: opentoline('/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/automatedAnesthesiaDelivery3D.m',103,0)">line 103</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runall', '/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/runall.m', 9)" style="font-weight:bold">runall</a> (<a href="matlab: opentoline('/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/runall.m',9,0)">line 9</a>)] 
+
+
+Time taken for the reach set computation: 13.65
+Ratio of volume (3D): 0.55
+Lower bound on the maximum reach probability: 1.00
+
+
+buildingAutomationSystem Case 1: 4D
+>>> Chance-constraint-based underapproximation
+
+
+Time taken for the reach set computation: 4.86
+Ratio of volume (2D): 0.97
+Lower bound on the maximum reach probability: 1.00
+
+
+buildingAutomationSystem Case 2: 7D
+>>> Chance-constraint-based underapproximation
+[Warning: Sanitized covariance matrix since eigenvalues >
+-1e-15 and <1e-10 found!
+The lowest eigenvalue is -8.3e-20
+New covariance matrix has all such eigenvalues set to 0.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('RandomVector', '/workspace/git/SReachTools/src/classes/RandomVector.m', 240)" style="font-weight:bold">RandomVector</a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/classes/RandomVector.m',240,0)">line 240</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('RandomVector/mtimes', '/workspace/git/SReachTools/src/classes/RandomVector.m', 399)" style="font-weight:bold"> * </a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/classes/RandomVector.m',399,0)">line 399</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SReachSetCcO', '/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSetCcO.m', 160)" style="font-weight:bold">SReachSetCcO</a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSetCcO.m',160,0)">line 160</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SReachSet', '/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSet.m', 224)" style="font-weight:bold">SReachSet</a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSet.m',224,0)">line 224</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('buildingAutomationSystem7D', '/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/buildingAutomationSystem7D.m', 62)" style="font-weight:bold">buildingAutomationSystem7D</a> (<a href="matlab: opentoline('/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/buildingAutomationSystem7D.m',62,0)">line 62</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runall', '/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/runall.m', 17)" style="font-weight:bold">runall</a> (<a href="matlab: opentoline('/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/runall.m',17,0)">line 17</a>)] 
+
+
+Time taken for the reach set computation: 5.67
+Ratio of volume (1D): 0.87
+Lower bound on the maximum reach probability: 1.00
+
+
+chainOfIntegrators 2D using 32 vectors
+Chance constrained approach for alpha=0.80
+
+
+Time taken for the reach set computation: 8.31
+Ratio of volume (2D): 0.63
+Lower bound on the maximum reach probability: 1.00
+
+
+chainOfIntegrators 3D using 32 vectors
+Chance constrained approach for alpha=0.80
+
+
+Time taken for the reach set computation: 9.89
+Ratio of volume (2D): 0.60
+Lower bound on the maximum reach probability: 1.00
+
+
+chainOfIntegrators 4D using 32 vectors
+Chance constrained approach for alpha=0.80
+
+
+Time taken for the reach set computation: 13.41
+Ratio of volume (2D): 0.59
+Lower bound on the maximum reach probability: 1.00
+
+
+chainOfIntegrators 5D using 32 vectors
+Chance constrained approach for alpha=0.80
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cvx_ids', '/workspace/Software/MATLAB/Aux/cvx/lib/cvx_ids.m', 2)" style="font-weight:bold">cvx_ids</a> (<a href="matlab: opentoline('/workspace/Software/MATLAB/Aux/cvx/lib/cvx_ids.m',2,0)">line 2</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cvx_end', '/workspace/Software/MATLAB/Aux/cvx/commands/cvx_end.m', 57)" style="font-weight:bold">cvx_end</a> (<a href="matlab: opentoline('/workspace/Software/MATLAB/Aux/cvx/commands/cvx_end.m',57,0)">line 57</a>)
+        i2 = evalin( 'caller', sprintf( 'cvx_ids( %s )',
+        i2(1:end-1) ) );
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SReachSetCcO>computePolytopeFromAnchor', '/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSetCcO.m', 555)" style="font-weight:bold">SReachSetCcO>computePolytopeFromAnchor</a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSetCcO.m',555,0)">line 555</a>)
+        cvx_end
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SReachSetCcO', '/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSetCcO.m', 278)" style="font-weight:bold">SReachSetCcO</a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSetCcO.m',278,0)">line 278</a>)
+                    computePolytopeFromAnchor(cheby_soln,
+                    sys, options, ...
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SReachSet', '/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSet.m', 224)" style="font-weight:bold">SReachSet</a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSet.m',224,0)">line 224</a>)
+                    [stoch_reach_set, extra_info] =
+                    SReachSetCcO(method_str, ...
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('chainOfIntegrators', '/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/chainOfIntegrators.m', 44)" style="font-weight:bold">chainOfIntegrators</a> (<a href="matlab: opentoline('/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/chainOfIntegrators.m',44,0)">line 44</a>)
+    = SReachSet('term','chance-open', sys, prob_thresh,
+    target_tube, ...
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runall', '/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/runall.m', 43)" style="font-weight:bold">runall</a> (<a href="matlab: opentoline('/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/runall.m',43,0)">line 43</a>)
+chainOfIntegrators;
+} 
+runall
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cvx_solver', '/workspace/Software/MATLAB/Aux/cvx/commands/cvx_solver.m', 54)" style="font-weight:bold">cvx_solver</a> (<a href="matlab: opentoline('/workspace/Software/MATLAB/Aux/cvx/commands/cvx_solver.m',54,0)">line 54</a>)
+The global CVX solver selection cannot be changed while a
+model is being constructed.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('presolve_setup', '/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/presolve_setup.m', 7)" style="font-weight:bold">presolve_setup</a> (<a href="matlab: opentoline('/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/presolve_setup.m',7,0)">line 7</a>)
+    evalc('cvx_solver(''Mosek'');cvx_save_prefs;');
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runall', '/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/runall.m', 1)" style="font-weight:bold">runall</a> (<a href="matlab: opentoline('/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/runall.m',1,0)">line 1</a>)
+root_folder = presolve_setup;
+} 
+cvx_begin;cvx_end;
+[Warning: Empty cvx model; no action taken.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cvx_end', '/workspace/Software/MATLAB/Aux/cvx/commands/cvx_end.m', 22)" style="font-weight:bold">cvx_end</a> (<a href="matlab: opentoline('/workspace/Software/MATLAB/Aux/cvx/commands/cvx_end.m',22,0)">line 22</a>)] 
+runall
+
+
+automatedAnesthesiaDelivery 3D
+>>> Chance-constraint-based underapproximation
+[Warning: Sanitized covariance matrix since eigenvalues >
+-1e-15 and <1e-10 found!
+The lowest eigenvalue is -2.5e-18
+New covariance matrix has all such eigenvalues set to 0.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('RandomVector', '/workspace/git/SReachTools/src/classes/RandomVector.m', 240)" style="font-weight:bold">RandomVector</a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/classes/RandomVector.m',240,0)">line 240</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('RandomVector/mtimes', '/workspace/git/SReachTools/src/classes/RandomVector.m', 399)" style="font-weight:bold"> * </a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/classes/RandomVector.m',399,0)">line 399</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SReachSetCcO', '/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSetCcO.m', 160)" style="font-weight:bold">SReachSetCcO</a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSetCcO.m',160,0)">line 160</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SReachSet', '/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSet.m', 224)" style="font-weight:bold">SReachSet</a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSet.m',224,0)">line 224</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('automatedAnesthesiaDelivery3D', '/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/automatedAnesthesiaDelivery3D.m', 103)" style="font-weight:bold">automatedAnesthesiaDelivery3D</a> (<a href="matlab: opentoline('/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/automatedAnesthesiaDelivery3D.m',103,0)">line 103</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runall', '/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/runall.m', 9)" style="font-weight:bold">runall</a> (<a href="matlab: opentoline('/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/runall.m',9,0)">line 9</a>)] 
+
+
+Time taken for the reach set computation: 12.53
+Ratio of volume (3D): 0.55
+Lower bound on the maximum reach probability: 1.00
+
+
+buildingAutomationSystem Case 1: 4D
+>>> Chance-constraint-based underapproximation
+
+
+Time taken for the reach set computation: 4.62
+Ratio of volume (2D): 0.97
+Lower bound on the maximum reach probability: 1.00
+
+
+buildingAutomationSystem Case 2: 7D
+>>> Chance-constraint-based underapproximation
+[Warning: Sanitized covariance matrix since eigenvalues >
+-1e-15 and <1e-10 found!
+The lowest eigenvalue is -8.3e-20
+New covariance matrix has all such eigenvalues set to 0.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('RandomVector', '/workspace/git/SReachTools/src/classes/RandomVector.m', 240)" style="font-weight:bold">RandomVector</a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/classes/RandomVector.m',240,0)">line 240</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('RandomVector/mtimes', '/workspace/git/SReachTools/src/classes/RandomVector.m', 399)" style="font-weight:bold"> * </a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/classes/RandomVector.m',399,0)">line 399</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SReachSetCcO', '/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSetCcO.m', 160)" style="font-weight:bold">SReachSetCcO</a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSetCcO.m',160,0)">line 160</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SReachSet', '/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSet.m', 224)" style="font-weight:bold">SReachSet</a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSet.m',224,0)">line 224</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('buildingAutomationSystem7D', '/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/buildingAutomationSystem7D.m', 62)" style="font-weight:bold">buildingAutomationSystem7D</a> (<a href="matlab: opentoline('/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/buildingAutomationSystem7D.m',62,0)">line 62</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runall', '/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/runall.m', 17)" style="font-weight:bold">runall</a> (<a href="matlab: opentoline('/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/runall.m',17,0)">line 17</a>)] 
+
+
+Time taken for the reach set computation: 5.90
+Ratio of volume (1D): 0.87
+Lower bound on the maximum reach probability: 1.00
+
+
+chainOfIntegrators 2D using 32 vectors
+Chance constrained approach for alpha=0.80
+Time taken for the reach set computation: 9.60
+Ratio of volume (2D): 0.63
+Lower bound on the maximum reach probability: 1.00
+
+
+chainOfIntegrators 3D using 32 vectors
+Chance constrained approach for alpha=0.80
+Time taken for the reach set computation: 12.00
+Ratio of volume (2D): 0.60
+Lower bound on the maximum reach probability: 1.00
+
+
+chainOfIntegrators 4D using 32 vectors
+Chance constrained approach for alpha=0.80
+Time taken for the reach set computation: 15.02
+Ratio of volume (2D): 0.59
+Lower bound on the maximum reach probability: 1.00
+
+
+chainOfIntegrators 5D using 32 vectors
+Chance constrained approach for alpha=0.80
+Time taken for the reach set computation: 17.13
+Ratio of volume (2D): 0.59
+Lower bound on the maximum reach probability: 1.00
+
+
+chainOfIntegrators 6D using 32 vectors
+Chance constrained approach for alpha=0.80
+Time taken for the reach set computation: 22.08
+Ratio of volume (2D): 0.59
+Lower bound on the maximum reach probability: 1.00
+
+
+chainOfIntegrators 7D using 32 vectors
+Chance constrained approach for alpha=0.80
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cvxprob/eliminate', '/workspace/Software/MATLAB/Aux/cvx/lib/@cvxprob/eliminate.m', 171)" style="font-weight:bold">cvxprob/eliminate</a> (<a href="matlab: opentoline('/workspace/Software/MATLAB/Aux/cvx/lib/@cvxprob/eliminate.m',171,0)">line
+171</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cvxprob/solve', '/workspace/Software/MATLAB/Aux/cvx/lib/@cvxprob/solve.m', 18)" style="font-weight:bold">cvxprob/solve</a> (<a href="matlab: opentoline('/workspace/Software/MATLAB/Aux/cvx/lib/@cvxprob/solve.m',18,0)">line 18</a>)
+[ At, cones, sgn, Q, P, dualized ] = eliminate( prob, true,
+shim.dualize );
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cvx_end', '/workspace/Software/MATLAB/Aux/cvx/commands/cvx_end.m', 88)" style="font-weight:bold">cvx_end</a> (<a href="matlab: opentoline('/workspace/Software/MATLAB/Aux/cvx/commands/cvx_end.m',88,0)">line 88</a>)
+        solve( prob );
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SReachSetCcO>computePolytopeFromAnchor', '/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSetCcO.m', 555)" style="font-weight:bold">SReachSetCcO>computePolytopeFromAnchor</a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSetCcO.m',555,0)">line 555</a>)
+        cvx_end
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SReachSetCcO', '/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSetCcO.m', 278)" style="font-weight:bold">SReachSetCcO</a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSetCcO.m',278,0)">line 278</a>)
+                    computePolytopeFromAnchor(cheby_soln,
+                    sys, options, ...
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SReachSet', '/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSet.m', 224)" style="font-weight:bold">SReachSet</a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSet.m',224,0)">line 224</a>)
+                    [stoch_reach_set, extra_info] =
+                    SReachSetCcO(method_str, ...
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('chainOfIntegrators', '/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/chainOfIntegrators.m', 44)" style="font-weight:bold">chainOfIntegrators</a> (<a href="matlab: opentoline('/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/chainOfIntegrators.m',44,0)">line 44</a>)
+    = SReachSet('term','chance-open', sys, prob_thresh,
+    target_tube, ...
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runall', '/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/runall.m', 55)" style="font-weight:bold">runall</a> (<a href="matlab: opentoline('/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/runall.m',55,0)">line 55</a>)
+chainOfIntegrators;
+} 
+cvx_begin;cvx_end;
+[Warning: Empty cvx model; no action taken.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cvx_end', '/workspace/Software/MATLAB/Aux/cvx/commands/cvx_end.m', 22)" style="font-weight:bold">cvx_end</a> (<a href="matlab: opentoline('/workspace/Software/MATLAB/Aux/cvx/commands/cvx_end.m',22,0)">line 22</a>)] 
+runall
+
+
+automatedAnesthesiaDelivery 3D
+Convex chance constrained approach for alpha=0.99
+[Warning: Sanitized covariance matrix since eigenvalues >
+-1e-15 and <1e-10 found!
+The lowest eigenvalue is -2.5e-18
+New covariance matrix has all such eigenvalues set to 0.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('RandomVector', '/workspace/git/SReachTools/src/classes/RandomVector.m', 240)" style="font-weight:bold">RandomVector</a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/classes/RandomVector.m',240,0)">line 240</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('RandomVector/mtimes', '/workspace/git/SReachTools/src/classes/RandomVector.m', 399)" style="font-weight:bold"> * </a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/classes/RandomVector.m',399,0)">line 399</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SReachSetCcO', '/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSetCcO.m', 160)" style="font-weight:bold">SReachSetCcO</a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSetCcO.m',160,0)">line 160</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SReachSet', '/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSet.m', 224)" style="font-weight:bold">SReachSet</a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSet.m',224,0)">line 224</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('automatedAnesthesiaDelivery3D', '/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/automatedAnesthesiaDelivery3D.m', 103)" style="font-weight:bold">automatedAnesthesiaDelivery3D</a> (<a href="matlab: opentoline('/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/automatedAnesthesiaDelivery3D.m',103,0)">line 103</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runall', '/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/runall.m', 9)" style="font-weight:bold">runall</a> (<a href="matlab: opentoline('/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/runall.m',9,0)">line 9</a>)] 
+Time taken for the reach set computation: 12.41
+Ratio of volume (3D): 0.55
+Lower bound on the maximum reach probability: 1.00
+
+
+buildingAutomationSystem Case 1: 4D
+Convex chance constrained approach for alpha=0.80
+Time taken for the reach set computation: 4.90
+Ratio of volume (2D): 0.97
+Lower bound on the maximum reach probability: 1.00
+
+
+buildingAutomationSystem Case 2: 7D
+Convex chance constrained approach for alpha=0.80
+[Warning: Sanitized covariance matrix since eigenvalues >
+-1e-15 and <1e-10 found!
+The lowest eigenvalue is -8.3e-20
+New covariance matrix has all such eigenvalues set to 0.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('RandomVector', '/workspace/git/SReachTools/src/classes/RandomVector.m', 240)" style="font-weight:bold">RandomVector</a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/classes/RandomVector.m',240,0)">line 240</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('RandomVector/mtimes', '/workspace/git/SReachTools/src/classes/RandomVector.m', 399)" style="font-weight:bold"> * </a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/classes/RandomVector.m',399,0)">line 399</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SReachSetCcO', '/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSetCcO.m', 160)" style="font-weight:bold">SReachSetCcO</a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSetCcO.m',160,0)">line 160</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SReachSet', '/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSet.m', 224)" style="font-weight:bold">SReachSet</a> (<a href="matlab: opentoline('/workspace/git/SReachTools/src/modules/stochReach/setBased/SReachSet.m',224,0)">line 224</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('buildingAutomationSystem7D', '/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/buildingAutomationSystem7D.m', 62)" style="font-weight:bold">buildingAutomationSystem7D</a> (<a href="matlab: opentoline('/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/buildingAutomationSystem7D.m',62,0)">line 62</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runall', '/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/runall.m', 17)" style="font-weight:bold">runall</a> (<a href="matlab: opentoline('/workspace/git/PaperCodes/2020/ARCH_StochasticModeling/runall.m',17,0)">line 17</a>)] 
+Time taken for the reach set computation: 5.76
+Ratio of volume (1D): 0.87
+Lower bound on the maximum reach probability: 1.00
+
+
+chainOfIntegrators 2D using 32 vectors
+Convex chance constrained approach for alpha=0.80
+Time taken for the reach set computation: 8.30
+Ratio of volume (2D): 0.63
+Lower bound on the maximum reach probability: 1.00
+
+
+chainOfIntegrators 3D using 32 vectors
+Convex chance constrained approach for alpha=0.80
+Time taken for the reach set computation: 10.95
+Ratio of volume (2D): 0.60
+Lower bound on the maximum reach probability: 1.00
+
+
+chainOfIntegrators 4D using 32 vectors
+Convex chance constrained approach for alpha=0.80
+Time taken for the reach set computation: 13.57
+Ratio of volume (2D): 0.59
+Lower bound on the maximum reach probability: 1.00
+
+
+chainOfIntegrators 5D using 32 vectors
+Convex chance constrained approach for alpha=0.80
+Time taken for the reach set computation: 16.94
+Ratio of volume (2D): 0.59
+Lower bound on the maximum reach probability: 1.00
+
+
+chainOfIntegrators 6D using 32 vectors
+Convex chance constrained approach for alpha=0.80
+Time taken for the reach set computation: 22.25
+Ratio of volume (2D): 0.59
+Lower bound on the maximum reach probability: 1.00
+
+
+chainOfIntegrators 7D using 32 vectors
+Convex chance constrained approach for alpha=0.80
+Time taken for the reach set computation: 28.72
+Ratio of volume (2D): 0.59
+Lower bound on the maximum reach probability: 1.00
+
+
+chainOfIntegrators 10D using 32 vectors
+Convex chance constrained approach for alpha=0.80
+Time taken for the reach set computation: 64.04
+Ratio of volume (2D): 0.59
+Lower bound on the maximum reach probability: 1.00
+
+
+chainOfIntegrators 20D using 32 vectors
+Convex chance constrained approach for alpha=0.80
+Computing an initial state with maximum safety probability
+Polytope exists | Maximum reach probability: 0.9999 >= 0.8000 (level of the stochastic reach set)Maximum reach probability: 1.00 > 0.80 (given threshold) | Polytope exists 
+Computing the Chebyshev center of initial safe set with safety probability above the prescribed threshold
+Computing the polytope via the Chebyshev center
+Analyzing direction :   0/  32   1/  32   2/  32   3/  32   4/  32   5/  32{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cvxprob/eliminate', '/workspace/Software/MATLAB/Aux/cvx/lib/@cvxprob/eliminate.m', 171)" style="font-weight:bold">cvxprob/eliminate</a> (<a href="matlab: opentoline('/workspace/Software/MATLAB/Aux/cvx/lib/@cvxprob/eliminate.m',171,0)">line
+171</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cvxprob/solve', '/workspace/Software/MATLAB/Aux/cvx/lib/@cvxprob/solve.m', 18)" style="font-weight:bold">cvxprob/solve</a> (<a href="matlab: opentoline('/workspace/Software/MATLAB/Aux/cvx/lib/@cvxprob/solve.m',18,0)">line 18</a>)
+[ At, cones, sgn, Q, P, dualized ] = eliminate( prob, true,
+shim.dualize );
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cvx_end', '/workspace/Software/MATLAB/Aux/cvx/commands/cvx_end.m', 88)" style="font-weight:bold">cvx_end</a> (<a href="matlab: opentoline('/workspace/Software/MATLAB/Aux/cvx/commands/cvx_end.m',88,0)">line 88</a>)
+        solve( prob );
+
+In <a href="matlab:matlab.inter
