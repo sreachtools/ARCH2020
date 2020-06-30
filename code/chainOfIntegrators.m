@@ -1,10 +1,19 @@
+%% Underapproximative verification of an automated anesthesia delivery system
+% 
+% Convex chance-constraint+open-loop-based underapproximation to construct the
+% stochastic reach set for automated anesthesia delivery system at prob_thresh = 0.99
+
+%% Uncomment these lines for standalone computation
+% clearvars;srtinit;root_folder = presolve_setup;
 % n_intg = 2;
-% cco_compute_style = 'max_safe_init';
+% cco_compute_style = 'cheby';
+
 prob_thresh = 0.8;
 n_dir_vecs = 32;
 
 fprintf('\n\nchainOfIntegrators %dD using %d vectors\n', n_intg, ...
     n_dir_vecs);
+
 %% System definition
 umax = 1;
 dist_cov = 0.01;
@@ -51,9 +60,6 @@ fprintf('Time taken for the reach set computation: %1.2f\n', ...
 underapproximate_stochastic_reach_avoid_polytope_cco_2D = ...
     Polyhedron(underapproximate_stochastic_reach_avoid_polytope_cco.V(:, 1:2));
 underapproximate_stochastic_reach_avoid_polytope_cco_2D.minVRep();
-% safe_set_2D = Polyhedron(safe_set.V(:, 1:2));
-% safe_set_2D.minVRep();
-% safe_set_2D_volume = safe_set_2D.volume
 safe_set_2D_volume = (xmax_safe * 2) ^2;
 ratio_volume = ...
     underapproximate_stochastic_reach_avoid_polytope_cco_2D.volume/...
@@ -61,4 +67,4 @@ safe_set_2D_volume;
 fprintf('Ratio of volume (2D): %1.2f\n', ratio_volume)
 max_reach_prob = extra_info_cco(1).xmax_reach_prob;
 fprintf('Lower bound on the maximum reach probability: %1.2f\n', max_reach_prob)
-save(sprintf('%sresults/chainOfIntegrators%dD.mat', root_folder, n_intg));
+save(sprintf('../results/chainOfIntegrators%dD.mat', n_intg));

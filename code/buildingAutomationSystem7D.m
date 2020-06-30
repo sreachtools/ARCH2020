@@ -1,17 +1,13 @@
 %% Building automation system verification: Case 2
-% See ARCH 2019
 %
-% Comparison of (chance-constraint+open-loop)-based underapproximation with
-% Lagrangian (set-theoretic)-based underapproximation to construct the
-% stochastic reach set at prob_thresh = 0.8
-%
-% In the interest of time, Genzps+patternsearch-based underapproximation has
-% been disabled. See should_we_run_genzps
+% Convex chance-constraint+open-loop-based underapproximation to construct the
+% stochastic reach set for building automation system (Case 2) at prob_thresh = 0.8
+
 fprintf('\n\nbuildingAutomationSystem Case 2: 7D\n');
 
 %% Problem setup
 % System matrices
-load('matfiles/case2_bas.mat')
+load('/data/case2_bas.mat')
 state_matrix = Ahat7;
 input_matrix = Bhat7;
 dist_matrix = Fhat7;
@@ -62,7 +58,8 @@ cco_options = SReachSetOptions('term', 'chance-open', ...
 [underapprox_stoch_reach_polytope_cco, extra_info_cco] = SReachSet('term', ...
     'chance-open',sys, prob_thresh, safety_tube, cco_options);
 elapsed_time_cco = toc(timerVal);
-% For plotting, construct the slice
+
+% Construct the 1D set
 if ~underapprox_stoch_reach_polytope_cco.isEmptySet()
     underapprox_stoch_reach_polytope_cco_1D = ...
         underapprox_stoch_reach_polytope_cco.slice(2:7, ...
@@ -70,18 +67,6 @@ if ~underapprox_stoch_reach_polytope_cco.isEmptySet()
 else
     underapprox_stoch_reach_polytope_cco_1D = Polyhedron(1);
 end
-
-% %% Construction of the lagrangian-based underapproximation
-% fprintf('\n\n\n >>> Lagrangian-based underapproximation\n');
-% timerVal = tic;
-% lag_options = SReachSetOptions('term', 'lag-under', 'bound_set_method', ...
-%     'ellipsoid', 'compute_style', 'vfmethod', 'verbose', 1);
-% lag_stoch_viab_set = SReachSet('term','lag-under',sys, prob_thresh, ...
-%     safety_tube, lag_options);
-% elapsed_time_lag = toc(timerVal);
-% % For plotting, construct the slice
-% lag_stoch_viab_set_1D = lag_stoch_viab_set.slice(2:7, ...
-%     [x2_init;x3_init;x4_init;x5_init;x6_init;x7_init]);
 
 %% Disp
 fprintf('Time taken for the reach set computation: %1.2f\n', ...
@@ -91,10 +76,4 @@ ratio_volume = abs(diff(underapprox_stoch_reach_polytope_cco_1D.V)) ...
 fprintf('Ratio of volume (1D): %1.2f\n', ratio_volume)
 max_reach_prob = extra_info_cco(1).xmax_reach_prob;
 fprintf('Lower bound on the maximum reach probability: %1.2f\n', max_reach_prob)
-% fprintf('Time taken for the reach set computation (lag-under): %1.2f\n', elapsed_time_lag)
-% disp('Chance-const. set')
-% disp('Lagrangian set')
-% disp(lag_stoch_viab_set_1D.V)
-% disp('Safe set')
-% disp(safe_set.V(:,1))
-save(strcat(root_folder, 'results/buildingAutomationSystem7D.mat'));
+save('../results/buildingAutomationSystem7D.mat');

@@ -1,6 +1,6 @@
 metadata_version: 1
 name: 'Repeatability module for ARCH-COMP20: SReachTools'
-description: "We provide SReachTools code base used for \"ARCH 2020 Category Report: Stochastic Models\" repeatability evaluation. We tested SReachTools on three different benchmarks --- automated anesthesia delivery system, building automation system, and chain of integrators. \n\nWe obtain the table (similar to the one reported in ARCH 2020) using the script `code/parseMatfilesResults.m` (executed automatically by ` code/runall.m`). We store the table in `/results/table.csv`. The capsule takes about 3 minutes to complete computation.\n\nSee https://github.com/sreachtools/ARCH2020 for more details.\n\n"
+description: "We provide SReachTools code base used for \"ARCH 2020 Category Report: Stochastic Models\" repeatability evaluation. We tested SReachTools on three different benchmarks --- automated anesthesia delivery system, building automation system, and chain of integrators. \n\nWe obtain the table (similar to the one reported in ARCH 2020) using the script `/code/parseMatfilesResults.m` (executed automatically by `/code/runall.m`). We store the table in `/results/table.csv`, and also plot the underapproximative reach sets for the automated anesthesia delivery system and the building automation system (Case 1). For more details, see https://github.com/sreachtools/ARCH2020."
 tags:
 - stochastic-verification
 - stochastic-reachability

@@ -1,12 +1,7 @@
 %% Building automation system verification: Case 1
-% See ARCH 2019
 %
-% Comparison of (chance-constraint+open-loop)-based underapproximation with
-% Lagrangian (set-theoretic)-based underapproximation to construct the
-% stochastic reach set at prob_thresh = 0.8
-%
-% In the interest of time, Genzps+patternsearch-based underapproximation has
-% been disabled. See should_we_run_genzps
+% Convex chance-constraint+open-loop-based underapproximation to construct the
+% stochastic reach set for building automation system (Case 1) at prob_thresh = 0.8
 fprintf('\n\nbuildingAutomationSystem Case 1: 4D\n');
 
 %% Problem setup
@@ -53,12 +48,7 @@ prob_thresh = 0.8;
 % How many directions to explore for chance-open and genzps
 cco_n_dir_vecs = 8;
 verbose_spread = 0;
-% % Step 1: Do the 4D computation
-% set_of_dir_vecs = spreadPointsOnUnitSphere(sys.state_dim, cco_n_dir_vecs, 
-%     verbose_spread);
-% save('set_of_dir_vecs_building_automation_case1.mat', 'set_of_dir_vecs');
-% load('set_of_dir_vecs_building_automation_case1.mat', 'set_of_dir_vecs');
-% % Step 1: Do the 2D computation
+% Step 1: Do the 2D computation
 set_of_dir_vecs = spreadPointsOnUnitSphere(2, cco_n_dir_vecs, verbose_spread);
 set_of_dir_vecs = [set_of_dir_vecs; zeros(2, cco_n_dir_vecs)];
 
@@ -66,10 +56,6 @@ set_of_dir_vecs = [set_of_dir_vecs; zeros(2, cco_n_dir_vecs)];
 fprintf('Convex chance-constrained approach for alpha=%1.2f\n', prob_thresh);
 timerVal = tic;
 % SReachSet options preparation
-% Step 2: Do 4D computation
-% cco_options = SReachSetOptions('term', 'chance-open', ...
-%     'set_of_dir_vecs', set_of_dir_vecs, 'verbose', 0, ...
-%     'compute_style', 'cheby');
 % Step 2: Do 2D computation
 init_safe_set_affine = Polyhedron('He', ...
     [zeros(2,2) eye(2,2) slice_at_x3_and_x4_init]);
@@ -85,51 +71,21 @@ elapsed_time_cco = toc(timerVal);
 underapprox_stoch_reach_polytope_cco_2D = ...
     underapprox_stoch_reach_polytope_cco.slice([3,4], slice_at_x3_and_x4_init);
 
-% %% Construction of the lagrangian-based underapproximation
-% fprintf('\n\n\n >>> Lagrangian-based underapproximation\n');
-% timerVal = tic;
-% lag_options = SReachSetOptions('term', 'lag-under', 'bound_set_method', ...
-%     'ellipsoid', 'compute_style', 'vfmethod', 'verbose', 2, ...
-%     'vf_enum_method', 'lrs');
-% lag_stoch_viab_set = SReachSet('term','lag-under',sys, prob_thresh, ...
-%     safety_tube, lag_options);
-% elapsed_time_lag = toc(timerVal);
-% lag_stoch_viab_set_2D = lag_stoch_viab_set.slice([3,4], ...
-%     slice_at_x3_and_x4_init);
-
-% %% Construction of the Genz+patternsearch-based underapproximation
-% fprintf('\n\n\n >>> Genz+patternsearch-based underapproximation\n');
-% timerVal = tic;
-% % Directions to explore
-% theta_vec = linspace(0, 2*pi, genzps_n_dir_vecs + 1);
-% theta_vec = theta_vec(1:end-1);
-% set_of_dir_vecs = [cos(theta_vec);sin(theta_vec);
-%                    zeros(2,genzps_n_dir_vecs)];
-% % Slice of the stochastic viability set of interest
-% init_safe_set_affine = Polyhedron('He',[0,0,1,0,x3_init;0,0,0,1,x4_init]);
-% % SReachSet options preparation
-% genzps_options = SReachSetOptions('term', 'genzps-open', ...
-%     'init_safe_set_affine', init_safe_set_affine, 'set_of_dir_vecs', ...
-%     set_of_dir_vecs,'verbose',1);
-% genzps_stoch_viab_set = SReachSet('term','genzps-open',sys, prob_thresh, ...
-%     safety_tube, genzps_options);
-% elapsed_time_genzps = toc(timerVal);
-
-% %% Plot the figures
-% figure(1);
-% clf
-% plot(safe_set_2D,'color','y');
-% hold on;
-% plot(cco_stoch_viab_set_2D, 'color','m');
-% box on;
-% grid on;
-% axis tight;axis equal;
-% xlabel('$x_1$','interpreter','latex');
-% ylabel('$x_2$','interpreter','latex');
-% % In general, increase the fontsize
-% set(gca,'FontSize',20);
-% % % If code ocean, save the results
-% % saveas(gcf, '../results/BAS_StochasticViabilitySet.png');
+%% Plot the figures
+figure(1);
+clf
+plot(safe_set_2D,'color','y');
+hold on;
+plot(underapprox_stoch_reach_polytope_cco_2D, 'color','m');
+box on;
+grid on;
+axis tight;axis equal;
+xlabel('$x_1$','interpreter','latex');
+ylabel('$x_2$','interpreter','latex');
+leg=legend({'Safe set','Underapproximative polytope'});
+set(leg,'Location','bestoutside');
+title('Underapprox. stochastic reach-avoid set (BAS)');
+saveas(gcf, '../results/BAS_StochasticViabilitySet.png');
 
 %% Disp
 fprintf('Time taken for the reach set computation: %1.2f\n', ...
@@ -138,6 +94,4 @@ ratio_volume=underapprox_stoch_reach_polytope_cco_2D.volume/safe_set_2D.volume;
 fprintf('Ratio of volume (2D): %1.2f\n', ratio_volume)
 max_reach_prob = extra_info_cco(1).xmax_reach_prob;
 fprintf('Lower bound on the maximum reach probability: %1.2f\n', max_reach_prob)
-%     fprintf('Time taken for the reach set computation (genzps-open): %1.2f\n', elapsed_time_genzps)
-%     fprintf('Time taken for the reach set computation (lag-under): %1.2f\n', elapsed_time_lag)
-save(strcat(root_folder, 'results/buildingAutomationSystem4D.mat'));
+save('../results/buildingAutomationSystem4D.mat');
